@@ -9,6 +9,7 @@ public class UserStoreMain {
         User user = new UserBuilder()
                 .setFirstName("John")
                 .setLastName("Doe")
+                .setCountry("Niemcy")
                 .build();
 
         System.out.println("userStore = " + userStore.getUser());
