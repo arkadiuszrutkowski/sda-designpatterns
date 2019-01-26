@@ -6,6 +6,7 @@ import java.util.Map;
 public class PrototypeMain {
 
     public static void main(String[] args) {
+        // dynamicznie konfigurowalne
         Map<String, Shape> prototypes = new HashMap<String, Shape>();
         prototypes.put("Rectangle", new Rectangle());
         prototypes.put("Circle", new Circle());
